@@ -23,6 +23,5 @@ Now please rank the models by the quality of their answers, so that the model wi
     {'model': <model-name>, 'rank': <model-rank>},
     {'model': <model-name>, 'rank': <model-rank>}
 ]
-
-Your response must be a valid Python dictionary and should contain nothing else because we will directly execute it in Python. Please provide the ranking that the majority of humans would give.
+your response must start with '[' and end with ']'
 <|im_end|>

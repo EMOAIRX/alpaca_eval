@@ -1,0 +1,3 @@
+,np.tanh(std_delta_len),instruction_difficulty,not_gamed_baseline.astype(float)
+iter2_DSlabel_blending_1_1,-1.3195663254860683,-0.0298803507871635,0.0396288584684494
+iter2_DSlabel_randomly,-1.3491581696722648,-0.0287994215498052,-0.0966727930128176

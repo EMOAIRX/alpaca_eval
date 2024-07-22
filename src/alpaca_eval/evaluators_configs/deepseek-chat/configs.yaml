@@ -1,0 +1,14 @@
+mistral-large-2402_ranking:
+  prompt_template: "claude_3_opus_ranking/ranking_prompt.txt"
+  fn_completions: "openai_completions"
+  completions_kwargs:
+    model_name: "deepseek-chat"
+    max_tokens: 1024
+    temperature: 0
+    requires_chatml: True
+    price_per_token: 1e-6
+    client_kwargs:
+      base_url: 'https://api.deepseek.com'
+  fn_completion_parser: "ranking_parser"
+  batch_size: 1
+  
